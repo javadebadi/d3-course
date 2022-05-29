@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>001</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.4.4/d3.min.js"
+        integrity="sha512-hnFpvCiJ8Fr1lYLqcw6wLgFUOEZ89kWCkO+cEekwcWPIPKyknKV1eZmSSG3UxXfsSuf+z/SgmiYB1zFOg3l2UQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>SVG Fundamentals</h1>
+    <div id="d3-canvas">
+          <svg width="1000" height="1000">
+              <!-- circle  -->
+              <circle cx="50" cy="50" r="50"></circle>
+              <circle cx="150" cy="50" r="50" fill="red"></circle>
+              <!-- rectangles -->
+              <rect
+              stroke="blue"
+              x="10"
+              y="150"
+              fill="yellow"
+              width="200"
+              height="100"
+              fill="none"
+              stroke="blue"
+              stroke-width="10"
+              ></rect>
+              <!-- line -->
+              <line
+                x1="0"
+                y1="300"
+                x2="500"
+                y2="300"
+                stroke="#FF00AA"
+                stroke-width="3"
+              >   
+              </line>
+              <!-- path -->
+              <path
+                stroke="black"
+                fill="black"
+                d="M200,300L300,300L300,100"
+              >
+              </path>
+              <text x="200" y="400" fill="black" stroke="blue" class="text">
+                  SVG is Great!
+              </text>
+7
+          </svg>
+    </div>
+</body>
+</html>

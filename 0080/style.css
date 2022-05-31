@@ -1,0 +1,13 @@
+body {
+    margin: 50px;
+    overflow: hidden;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+.bar:hover {
+    fill:brown;
+}

@@ -1,0 +1,10 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+g.tick line,
+path.domain {
+    display: none;
+}

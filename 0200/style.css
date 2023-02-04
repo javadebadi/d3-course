@@ -2,12 +2,3 @@ body, html {
     margin: 0;
     height: 100%;
 }
-
-.tick > path {
-    fill: black;
-}
-
-.axis .x {
-    fill: blue;
-    stroke: black;
-}
